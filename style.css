@@ -1,0 +1,255 @@
+* { box-sizing: border-box;
+    background-color: whitesmoke; 
+}
+
+.negro{
+    background-color: black;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.blanco{
+    background-color: greenyellow;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.compraahora{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.item3 {
+    position: relative;
+    color: black; 
+    margin: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+.item {
+  position: relative;
+  color: black; 
+  margin: 20px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.item2 {
+    position: relative;
+    color: black; 
+    letter-spacing: 5px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+.item3 {
+    position: relative;
+    color: ; 
+    margin: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.bandera-españa{
+    width: 2em;
+    height: 2em;
+}
+
+.bandera-portugal{
+    width: 2em;
+    height: 2em;
+}
+
+.bandera-francia{
+    width: 2em;
+    height: 2em;
+}
+
+.bandera-reino-unido{
+    width: 2em;
+    height: 2em;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+/* CLEARFIX */
+#menu:after {
+    content: "";
+    clear: both;
+}
+  
+.subitem { border-radius: 50% black ; }
+  
+.submenu { display: none;}
+  
+.item:hover > .submenu {
+    position: relative;
+    display: block;
+  
+}
+  
+.meme123{
+    width: 100%;
+    height: 500px;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.zapas1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.zapas2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.zapas3{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.igphotos{
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.campusambientsky {
+    position: relative;
+    height: 250px;
+    letter-spacing: 5px;
+    margin: 10px;
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+}
+
+.walesboner {
+    position: relative;
+    height: 250px;
+    letter-spacing: 5px;
+    margin: 10px;
+    grid-column: 2 / 6;
+    grid-row: 1 / 2;
+}
+
+.UNC {
+    position: relative;
+    height: 250px;
+    letter-spacing: 5px;
+    margin: 10px;
+    grid-column: 3 / 6;
+    grid-row: 1 / 2;
+}
+
+.campusgreywhite {
+    position: relative;
+    height: 250px;
+    letter-spacing: 5px;
+    margin: 10px;
+    grid-column: 4 / 6;
+    grid-row: 1 / 2;
+}
+
+.alwayswlove {
+    position: relative;
+    height: 250px;
+    letter-spacing: 5px;
+    margin: 10px;
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+}
+
+.wearenotfriends {
+    position: relative;
+    height: 250px;
+    letter-spacing: 5px;
+    margin: 10px;
+    grid-column: 6 / 6;
+    grid-row: 1 / 2;
+}
+
+.guess {
+    position: relative;
+    height: 250px;
+    letter-spacing: 5px;
+    margin: 10px;
+    grid-column: 1 / 6;
+    grid-row: 2 / 2;
+}
+
+.campusgreyblack {
+    position: relative;
+    height: 250px;
+    letter-spacing: 5px;
+    margin: 10px;
+    grid-column: 2 / 6;
+    grid-row: 2 / 2;
+}
+
+.sambaog {
+    position: relative;
+    height: 250px;
+    letter-spacing: 5px;
+    margin: 10px;
+    grid-column: 3 / 6;
+    grid-row: 2 / 2;
+}
+
+.campusdarkgreen {
+    position: relative;
+    height: 250px;
+    letter-spacing: 5px;
+    margin: 10px;
+    grid-column: 4 / 6;
+    grid-row: 2 / 2;
+}
+
+.sorteo {
+    position: relative;
+    height: 250px;
+    letter-spacing: 5px;
+    margin: 10px;
+    grid-column: 5 / 6;
+    grid-row: 2 / 2;
+}
+
+.bornraised {
+    position: relative;
+    height: 250px;
+    letter-spacing: 5px;
+    margin: 10px;
+    grid-column: 6 / 6;
+    grid-row: 2 / 2;
+}
